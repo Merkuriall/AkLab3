@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/varen6/ak2-lab-works/ak2-lab2/build && /usr/bin/cmake -S/home/varen6/ak2-lab-works/ak2-lab2 -B/home/varen6/ak2-lab-works/ak2-lab2/build
+  COMMAND = cd /home/ak3-lab-works/ak2-lab3/build && /usr/bin/cmake -S/home/ak3-lab-works/ak2-lab3 -B/home/ak2-lab-works/ak2-lab3/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -128,7 +128,7 @@ build calcprojLib: phony libcalcprojLib.a
 # =============================================================================
 
 #############################################
-# Folder: /home/varen6/ak2-lab-works/ak2-lab2/build
+# Folder: /home/ak2-lab-works/ak2-lab3/build
 
 build all: phony libcalcprojLib.a calcproj
 

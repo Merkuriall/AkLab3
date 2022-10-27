@@ -61,7 +61,7 @@ rule CXX_EXECUTABLE_LINKER__calcproj
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -S/home/varen6/ak2-lab-works/ak2-lab2 -B/home/varen6/ak2-lab-works/ak2-lab2/build
+  command = /usr/bin/cmake -S/home/ak2-lab-works/ak2-lab3 -B/home/ak2-lab-works/ak2-lab3/build
   description = Re-running CMake...
   generator = 1
 
